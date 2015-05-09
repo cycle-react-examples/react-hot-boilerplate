@@ -35,6 +35,7 @@
     "webpack-dev-server": "^1.7.0"
   },
   "dependencies": {
+    "cycle-react": "git+https://github.com/pH200/cycle-react.git#react-hot-loader",
     "react": "^0.13.0"
   }
 }

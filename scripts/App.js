@@ -1,9 +1,9 @@
 import React from 'react';
+import Cycle from 'cycle-react';
+let Rx = Cycle.Rx;
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <h1>Hello, world.</h1>
-    );
-  }
-}
+let App = Cycle.createReactClass('App', () => Rx.Observable.just(
+  <h1>Hello, world.</h1>
+));
+
+export default App;
