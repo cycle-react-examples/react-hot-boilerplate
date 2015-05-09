@@ -30,12 +30,12 @@
   "devDependencies": {
     "babel-core": "^5.1.11",
     "babel-loader": "^5.0.0",
-    "react-hot-loader": "^1.2.2",
+    "react-hot-loader": "~1.2.2",
     "webpack": "^1.7.2",
     "webpack-dev-server": "^1.7.0"
   },
   "dependencies": {
-    "cycle-react": "git+https://github.com/pH200/cycle-react.git#react-hot-loader",
-    "react": "^0.13.0"
+    "cycle-react": "0.23.0",
+    "react": "~0.13.0"
   }
 }
